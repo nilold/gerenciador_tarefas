@@ -3,6 +3,6 @@ language: python
 python:
   - 3.8
 install:
-  -pip install -r dev-requirements
+  -pip install -r dev-requirements.txt
 scrips:
   - python -m pytest --disable-warnings
